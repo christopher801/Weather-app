@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dope-Weather</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 translate="no">🌤 Today's Weather</h1>
+    <input type="text" id="cityInput" placeholder="Enter the city name">
+    <button onclick="getWeather()">Search</button>
+    <button onclick="toggleMode()">Dark/Light</button>
+
+    <div id="result" class="result"></div>
+    <div id="history" class="history">
+      <h3>Search history:</h3>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
